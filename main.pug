@@ -1,0 +1,38 @@
+mixin article()
+  .border-b-4.border-black.w-40.h-20.bg-yellow-300.rounded-md.px-5.py-1.grid.grid-cols-2
+    block
+
+mixin icon(iconClass)
+    i.py-1.fontello-icon.text-3xl(class=iconClass)
+
+      
+
+      
+
+doctype html
+html(lang="en")
+  head
+    script(src="https://cdn.tailwindcss.com")
+    link(rel="stylesheet", href="main.css", type="text/css")
+    link(rel="stylesheet", href="weather/css/weather-icons.css", type="text/css")
+
+  body
+    .frame.p-5.grid.gap-1.grid-cols-2.justify-items-center
+      +article()
+        i.py-2.wi.text-3xl.font-bold.text-black(class=weatherClass)
+        div.font-bold.text-black
+          span.text-2xl 27
+          span &#8451;
+      +article()
+        +icon('icon-home-outline') 
+        //- +icon('icon-water') 
+        //- +icon('icon-temperatire') 
+        //- +icon('icon-flash') 
+        div.font-bold.text-black
+          div
+            span.text= indoorTemp
+            span &#8451;
+          div
+            span.text= indoorHumidity
+            span %
+        

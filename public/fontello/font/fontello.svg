@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2023 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="home-outline" unicode="&#xe800;" d="M1108 422q38-30 38-80 0-42-30-73t-75-31l-51 0 0-312q0-44-31-75t-74-30l-625 0q-42 0-73 30t-31 75l0 312-52 0q-44 0-74 31t-30 73q0 46 36 79 79 66 204 174t211 181 88 75l34 29 35-29q1-1 86-75t211-181 203-173z m-430-496l0 260-209 0 0-260 209 0z m207 416l156 0q-231 194-468 400-238-206-469-400l156 0 0-416 156 0 0 312 313 0 0-312 156 0 0 416z" horiz-adv-x="1146" />
+
+<glyph glyph-name="home" unicode="&#xe801;" d="M521 819q322-279 500-429 20-16 20-40 0-21-15-37t-36-15l-105 0 0-364q0-21-15-37t-36-16l-156 0q-22 0-37 16t-16 37l0 208-209 0 0-208q0-21-15-37t-36-16l-156 0q-21 0-37 16t-16 37l0 364-103 0q-22 0-37 15t-16 37 19 40z" horiz-adv-x="1041" />
+
+<glyph glyph-name="water" unicode="&#xe802;" d="M168 844q10-86 50-155t73-123 33-112q0-66-48-113t-114-47-114 47-48 113q0 58 33 112t73 123 50 155q2 4 7 4t5-4z m616 0q10-86 50-155t73-123 33-112q0-66-48-113t-114-47-114 47-48 113q0 48 21 93t48 78 53 92 34 127q2 4 7 4t5-4z m-320-444q2 4 7 4t5-4q10-86 50-155t73-123 33-112q0-66-48-113t-114-47-114 47-48 113q0 58 33 112t73 123 50 155z" horiz-adv-x="940" />
+
+<glyph glyph-name="temperatire" unicode="&#xe803;" d="M286 190q34-8 57-36t22-64q0-42-31-73t-74-32-73 31-31 74q0 37 23 64t56 36l0 290q0 10 8 18t17 9 18-9 8-18l0-290z m157 84q78-79 78-184 0-107-77-184t-184-77-184 77-76 184q0 107 78 184l0 415q0 75 53 129t129 54 129-54 54-129l0-415z m-183-340q65 0 111 46t45 110q0 88-77 134l0 465q0 31-23 54t-56 24-55-24-22-54l0-465q-79-46-79-134 0-65 45-110t111-46z" horiz-adv-x="521" />
+
+<glyph glyph-name="flash" unicode="&#xe804;" d="M598 349q23-12 26-39t-16-45l-391-370q-14-14-35-14-28 0-43 24t-6 49l113 270-220 128q-22 12-25 38t15 45l391 370q11 14 35 14 21 0 37-16t15-36q0-13-5-23l-111-267z" horiz-adv-x="624" />
+</font>
+</defs>
+</svg>
