@@ -40,3 +40,7 @@
     -moz-osx-font-smoothing: grayscale; */
 
 }
+
+.yellow {
+    background-color: rgb(255, 0, 0);
+}
