@@ -8,6 +8,6 @@ export const getImage = async () => {
 
     // Set screen size
     await page.setViewport({ width: 400, height: 300 });
-    await page.screenshot({ path: 'test.png', fullPage: true })
+    await page.screenshot({ path: 'weather.png', fullPage: true })
     await browser.close();
 }
