@@ -40,3 +40,7 @@
     -moz-osx-font-smoothing: grayscale; */
 
 }
+
+.red {
+    background-color: red;
+}
