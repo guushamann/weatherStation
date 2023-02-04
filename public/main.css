@@ -9,6 +9,10 @@
     font-style: normal;
 }
 
+body {
+    font-family: 'Bebas Neue', cursive;
+}
+
 .icon-home-outline:after {
     content: "\0e800";
 }
@@ -43,4 +47,14 @@
 
 .red {
     background-color: red;
+}
+
+.yellow {
+    background-color: rgb(255, 0, 0);
+}
+
+.divider {
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    height: 20px;
 }

@@ -15,24 +15,33 @@ html(lang="en")
     script(src="https://cdn.tailwindcss.com")
     link(rel="stylesheet", href="main.css", type="text/css")
     link(rel="stylesheet", href="weather/css/weather-icons.css", type="text/css")
-
+    link(rel="preconnect", href="https://fonts.googleapis.com")
+    link(rel="preconnect", href="https://fonts.gstatic.com", crossorigin)
+    link(href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap", rel="stylesheet")
   body
-    .frame.p-5.grid.gap-1.grid-cols-2.justify-items-center
-      +article()
-        i.py-2.wi.text-3xl.font-bold.text-black(class=weatherClass)
-        div.font-bold.text-black
-          span.text-2xl 27
-          span &#8451;
-      +article()
-        +icon('icon-home-outline') 
-        //- +icon('icon-water') 
-        //- +icon('icon-temperatire') 
-        //- +icon('icon-flash') 
-        div.font-bold.text-black
-          div
-            span.text= indoorTemp
-            span &#8451;
-          div
-            span.text= indoorHumidity
-            span %
+    .frame
+      .p-5.grid.gap-1.grid-cols-2.justify-items-center
+        .text-8xl 24°C
+        .text-8xl 99%
+      .divider
+      .p-5.grid.gap-1.grid-cols-2.justify-items-center
+        .text-8xl 24°C
+        .text-8xl 99%
+      //- +article()
+      //-   i.py-2.wi.text-3xl.font-bold.text-black(class=weatherClass)
+      //-   div.font-bold.text-black
+      //-     span.text-2xl 24
+      //-     span &#8451;
+      //- +article()
+      //-   +icon('icon-home-outline') 
+      //-   //- +icon('icon-water') 
+      //-   //- +icon('icon-temperatire') 
+      //-   //- +icon('icon-flash') 
+      //-   div.font-bold.text-black
+      //-     div
+      //-       span.text= indoorTemp
+      //-       span &#8451;
+      //-     div
+      //-       span.text= indoorHumidity
+      //-       span %
         
